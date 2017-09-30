@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>Signup Form</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/stylesheet.css" />
+</head>
+
+<body>
+
+
+    <!-- Start Signup Form -->
+    
+    <div class='form signup'>
+        <h4>Create an account</h4>
+        <div class="errors">
+        
+        
+        </div>
+        <form name="connect" action="connect.php" method="POST">
+            <div class='form-group'>
+                <input class='form-control' type='text' placeholder='Username' name='name'/>  
+            </div>
+            <div class='form-group'>
+                <input class='form-control' type='password' placeholder='Password' name='password'/>
+            </div>
+             <div class='form-group'>
+                <input class='form-control' type='password' placeholder='Confirm Password' name='confirm'/>
+            </div>
+            <div class='form-group'>
+                <input class='form-control' type='email' placeholder='Email-Address' name='email'/>
+            </div>
+            <div class='form-group'>
+                <div class='row'>
+                    <div class='col-md-12'>
+                        <input class='form-control btn btn-success' type='submit' value='Signup' name='insert' />
+                    </div>
+                    <br> <br>
+                    <div class='col-md-12'>
+                        <p id='signup'>Already have an <a href='signin.html'  target="_blank">account </a>?</p>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- End Signup Form -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <!-- Javascript Tooltip library -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/plugins.js'></script>
+</body>
+
+</html>
